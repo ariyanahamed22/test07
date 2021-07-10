@@ -1,0 +1,1351 @@
+body{
+    overflow-x: hidden;
+}
+
+/* Default */
+
+.primary-menu input{
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+}
+.primary-menu span{
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+}
+
+/* 1920 */
+
+@media(max-width:1920px){
+    .about-section .about {
+        left: 478px;
+        top: 642px;
+        position: absolute;
+    }
+    .about-section .notice {
+        position: absolute;
+        right: 488px;
+        top: 641px;
+    }
+    .subject-section {
+        margin-top: 572px;
+    }
+    .test-section .button {
+        position: absolute;
+        left: 481px;
+    }
+}
+
+/* 1600 */
+@media(max-width:1600px){
+    .nav .button {
+        position: relative;
+        right: -246px;
+    }
+    .about-section .about {
+        left: 345px;
+        position: absolute;
+    }
+    .about-section .notice {
+        position: absolute;
+        right: 345px;
+    }
+    .test-section .button {
+        position: absolute;
+        left: 319px;
+    }
+}
+
+/* 1280 */
+@media(max-width:1280px){
+    .test-section .button {
+        position: absolute;
+        left: 483px;
+    }
+}
+
+/* 1400 */
+
+
+@media (max-width:1400px){
+    .about-section .about {
+        left: 221px;
+        position: absolute;
+    }
+    .about-section .notice {
+        position: absolute;
+        right: 226px;
+    }
+    .paragraph-right span {
+        display: block;
+        margin-left: 87px;
+    }
+    .test-section .button span {
+        position: relative;
+        left: 234px;
+    }
+}
+/* 1300 */
+
+
+@media (max-width:1300px){
+    .footer-section .bg .up a {
+        position: relative;
+        left: 1110px;
+    }
+    .test-section .button span {
+        position: relative;
+        left: 170px;
+    }
+}
+
+
+/* 1200 */
+
+@media(max-width:1200px){
+    .about-section .about {
+        left: 152px;
+        position: absolute;
+    }
+    .about-section .notice {
+        position: absolute;
+        right: 125px;
+    }
+    .test-section .button span {
+        position: relative;
+        left: 130px;
+    }
+    .footer-section .bg .up a {
+        position: relative;
+        left: 1090px;
+    }
+}
+
+/* 1160 */
+
+@media(max-width:1160px){
+    .fix-width {
+        max-width: 1100px;
+        margin: auto;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+    .topbar-right {
+        width: 25%;
+    }
+    .primary-menu ul li a {
+        padding: 0 10px;
+
+    }
+    .nav .button {
+        position: relative;
+        right: -189px;
+    }
+}
+
+
+/* 1060 */
+
+@media(max-width:1060px){
+    .topbar-left {
+        width: 60%;
+    }
+    .primary-menu ul li a {
+        padding: 0 6px;
+    }
+}
+
+
+/* 992 */
+
+@media(max-width:992px){
+    .fix-width {
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+    .topbar-left {
+        width: 60%;
+    }
+    .topbar-right{
+        width: 27%;
+    }
+    .primary-menu ul {
+        text-align: center;
+        position: relative;
+        left: 45px;
+    }
+    .primary-menu ul li a {
+        padding: 1px 6px;
+        font-size: 10px;
+    }
+    .primary-menu ul li .width{
+        width: 90px;
+    }
+    .primary-menu ul li ul li ul.baized {
+        left: -252%;
+        position: absolute;
+        width: 100px;
+    }
+    .nav .button {
+        position: relative;
+        right: -162px;
+    }
+    .primary-menu ul li a::after {
+        font-size: 8px;
+        position: absolute;
+        right: 6px;
+    }
+    .primary-menu ul li ul {
+        width: 90px;
+    }
+    .primary-menu ul li .width {
+        width: 82px;
+    }
+    .mega-menu{
+        text-align: left;
+    }
+    .mega-menu li .imp {
+        text-align: left;
+        padding-left: 12px;
+        width: 140px;
+    }
+    .slider-content h1 {
+        font-size: 30px;
+    }
+    .course-section .course-bottom .course-bottom-item .content .content02 {
+        font-size: 14px;
+    }
+    .about-section .about {
+        padding: 20px;
+        width: 400px;
+    }
+    .course-section .course-bottom .course-bottom-item {
+        width: 48%;
+    }
+    .course-section .course-bottom .course-bottom-item:nth-child(3){
+        margin-right: 2%;
+    }
+    .course-section .course-bottom .course-bottom-item .content .content02 {
+        color: #111;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .course-section .course-bottom .course-bottom-item .content .content01 .paragraph-right span{
+        position: relative;
+        left: 40px;
+        color: #606060;
+	    font-size: 14px;
+    }
+    .admission-section .admition-right .content p {
+        width: 300px;
+    }
+    .news-bottom .news-bottom-left {
+        width: 79%;
+        position: relative;
+        left: 159px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content {
+        padding: 30px 50px;
+        background: #fff;
+        position: relative;
+        left: -83px;
+    }
+    .news-bottom .news-bottom-right {
+        width: 70%;
+        position: relative;
+        left: -124px;
+        margin-top: 10px;
+    }
+    .subject-section {
+        padding-top: 50px;
+    }
+    .answer-section .answer-left {
+        width: 50%;
+    }
+    .answer-section .answer-left .content h2 {
+        font-weight: 600;
+        margin-bottom: 9px;
+        font-size: 25px;
+    }
+    .answer-section .answer-left .content .color {
+        padding: 10px;
+    }
+    .answer-section .answer-left .content p {
+        margin-bottom: -10px;
+    }
+    .answer-section .answer-left .content span {
+        font-size: 10px;
+        margin-bottom: 13px;
+    }
+    .answer-section .answer-left .content p {
+        width: 400px;
+    }
+    .answer-section .answer-right {
+        width: 45%;
+    }
+    .play-animation-btn {
+        position: absolute;
+        right: 195px;
+        bottom: 99px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        width: 239px;
+        height: 231px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up h3 {
+        margin-top: -26px;
+    }
+    .test-section .button span {
+        position: relative;
+        left: 27px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content {
+        position: relative;
+        left: -146px;
+    }
+    .newsletter-section .newsletter-right {
+        width: 50%;
+    }
+    .footer-section .footer-top .footer-widjet {
+        width: 50%;
+        position: relative;
+        left: 100px;
+        margin-bottom: 40px;
+    }
+    .footer-section .footer-top .shakil{
+        width: 50%;
+        position: relative;
+        left: 100px;
+
+    }
+    .footer-section .footer-top {
+        margin-bottom: -64px;
+    }
+    .footer-section .footer-bottom {
+        border-top: 1px solid #606060;
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+    .footer-section .bg .up a {
+        position: relative;
+        left: 864px;
+
+    }
+}
+
+
+/* 972 */
+
+@media(max-width:972px){
+    .course-section .course-bottom .course-bottom-item .content .content02 {
+        font-size: 14px;
+    }
+    .play-animation-btn {
+        position: absolute;
+        right: 179px;
+        bottom: 72px;
+    }
+}
+
+
+/* 912 */
+
+
+@media(max-width:912px){
+    .topbar-left {
+        width: 65%;
+    }
+    .topbar-right {
+        width: 30%;
+    }
+    .play-animation-btn {
+        position: absolute;
+        right: 158px;
+        bottom: 48px;
+    }
+    .footer-section .bg .up a {
+        position: relative;
+        left: 800px;
+    }
+    .about-section .about {
+        left: 77px;
+        position: absolute;
+        width: 300px;
+    }
+    .about-section .notice {
+        position: absolute;
+        right: 105px;
+    }
+}
+
+
+/* 870 */
+
+
+@media(max-width:870px){
+    .primary-menu ul li a {
+        padding: 0px 5px;
+        font-size: 8px;
+    }
+    .newsletter-section .newsletter-left {
+        width: 100;
+        width: 100%;
+        text-align: center;
+    }
+    .newsletter-section .newsletter-right {
+        width: 100%;
+        text-align: center;
+    }
+    .test-section .button {
+        position: absolute;
+        left: 418px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        width: 199px;
+        height: 231px;
+        position: absolute;
+        top: 3px;
+    }
+    .footer-section .bg .up a {
+        position: relative;
+        left: 788px;
+    }
+    
+}
+
+
+/* 843 */
+
+
+@media(max-width:843px){
+    .topbar{
+        height: 80px;
+    }
+    .topbar-left {
+        width: 100%;
+        text-align: center;
+    }
+    .topbar-right {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* 768 */
+
+@media(max-width:768px){
+    .topbar{
+        height: 80px;
+    }
+    .topbar-left {
+        width: 100%;
+        text-align: center;
+    }
+    .topbar-right {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .primary-menu input{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+    }
+    .primary-menu span{
+        opacity: 1;
+        visibility: visible;
+        height: 100%; 
+    }
+    
+    .nav .menu .national ul{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .nav .menu .national ul li ul {
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+        position: absolute;
+        left: 199px;
+        top: -3px;
+        background: transparent;
+    
+    }
+    .nav .menu .national ul li ul li .baized{
+        position: absolute;
+        left: 50px;
+        top: 0;
+    }
+    .mega-menu{
+       display: none;
+    }
+    .primary-menu .mobile-menu-check:checked ~ ul {
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+        
+    }
+    .primary-menu ul{
+        position: relative;
+        left: -165px;
+        top: 60px;
+    }
+    .primary-menu{
+        position: relative;
+    }
+    .primary-menu input {
+        height: 10px;
+        width: 10px;
+        display: inline-block;
+        position: absolute;
+        right: -108px;
+        top: 34px;
+        opacity: 0;
+    }
+    .primary-menu span {
+        display: inline-block;
+        position: absolute;
+        right:-110px;
+        top: 30px;
+        pointer-events: none;
+
+        
+    }
+    .nav .menu .national ul li{
+        display: block;
+    }
+    .primary-menu ul li a::after {
+        position: absolute;
+        right: 135px;
+        font-size: 8px;
+    }
+
+    .nav .logo {
+        margin-bottom: 12px;
+    }
+    .nav .button .after {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .nav .button {
+        position: absolute;
+        right: -109px;
+        top: -8px;
+    }
+    
+    .slider-content h1 {
+        font-size: 30px;
+    }
+    .slider-content p {
+        font-size: 16px;
+    }
+    .nav .logo a img {
+        width: 70px;
+        height: auto;
+    }
+    
+    .about-section .about {
+        width: 300px;
+        position: absolute;
+        left: 94px;
+        padding: 30px;
+    }
+    .about-section .about .about-content h1 {
+        font-size: 13px;
+    }
+    .about-section .about .about-content p {
+        font-size: 12px;
+    }
+    .about-section .about .about-image .sine img {
+        width: 58px;
+    }
+    .about-section .about .about-image .sine span {
+        display: block;
+        font-size: 10px;
+        position: relative;
+        top: 7px;
+    }
+   
+    .about-section .notice {
+        width: 220px;
+        position: absolute;
+        right: 78px;
+    }
+    .about-section .notice .notice-content {
+        padding: 10px;
+    }
+    .about-section .notice .notice-content .notice-right p {
+        font-size: 8px;
+        margin-top: 12px;
+        margin-left: 8px;
+    }
+    .subject-section .subject-top-left{
+        text-align: center;
+            width: 100%;
+    }
+    .subject-section .subject-top-right{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .subject-section .subject-bottom .subject-bottom-items {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 2%;
+    }
+    .course-section .course-top-left{
+            text-align: center;
+            width: 100%;
+    }
+    .course-section .course-top-right{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .course-section .course-bottom .course-bottom-item {
+        width: 48%;
+        margin-right: 2%;
+        border: 1px solid #cfcdcd;
+        padding: 25px;
+        margin-bottom: 2%;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content {
+        position: relative;
+        left: -106px;
+    }
+    .course-section .course-bottom .course-bottom-item:nth-child(3){
+        margin-right: 2%;
+    }
+    .admission-section .admition-left {
+        width: 100%;
+        margin-right: 0;
+    }
+    .admission-section .admition-right {
+        width: 100%;
+        text-align: center;
+        margin-top: -50px;
+        margin-bottom: -67px;
+        margin-left: 40px;
+    }
+    .admission-section .admition-right .content p {
+        width: 232px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .answer-section .answer-left {
+        width: 100%;
+        text-align: center;
+    }
+    .answer-section .answer-left .content p {
+        margin: auto;
+    }
+    .answer-section .answer-right {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: -35px;
+    }
+    .play-animation-btn {
+        position: absolute;
+        right: 297px;
+        bottom: 160px;
+    }
+    .teacher-section .teacher-top-left{
+        width: 100%;
+        text-align: center;
+    }
+    .teacher-section .teacher-top-right{
+        width: 100%;
+        text-align: center;
+  }
+  .teacher-section .teacher-bottom .item {
+	width: 100%;
+	margin-right: 0;
+	text-align: center;
+	margin-bottom: 20px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        width: 320px;
+        height: 342px;
+        position: absolute;
+        left: 162px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up h3 {
+        margin-top: 0;
+    }
+    .teacher-section .teacher-bottom .item:hover .pop-up {
+        visibility: visible;
+        opacity: 1;
+        z-index: 9999;
+        transform: translateY(0) scale(1);
+        margin-top: 22px;
+    }
+   
+    .test-section .test-bottom {
+        margin-top: 20px;
+    }
+    .test-section .test-bottom .test-bottom-left {
+        width: 100%;
+        text-align: center;
+    }
+    .test-section .test-bottom .test-bottom-right {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .test-section .button {
+        position: absolute;
+        left: 480px;
+    }
+    .test-section .button span {
+        position: relative;
+        left: -110px;
+    }
+    .news-bottom .news-bottom-left {
+        width: 100%;
+        position: relative;
+        left: 72px;
+    }
+
+    .newsletter-section .newsletter-left h6 {
+        font-weight: 700;
+        font-size: 11px;
+    }
+    .newsletter-section .newsletter-left h1 {
+        line-height: 1.7rem;
+        font-size: 22px;
+    }
+    .newsletter-section .newsletter-right input {
+        padding: 12px;
+        width: 177px;
+        font-size: 13px;
+    }
+    .newsletter-section .newsletter-right a {
+        padding: 10px 14px;
+        margin-left: -4px;
+    }
+    .footer-section .footer-top .footer-widjet {
+        width: 100%;
+        position: relative;
+        left: 260px;
+    }
+    .footer-section .footer-top .shakil {
+        width: 100%;
+        position: relative;
+        left: 250px;
+    }
+    .footer-section .footer-bottom .footer-bottom-menu {
+        width: 50%;
+        position: absolute;
+        left: 311px;
+        bottom: 119px;
+    }
+    .footer-section .footer-bottom .footer-bottom-content {
+        width: 100%;
+        margin-bottom: -36px;
+    }
+    .footer-section .bg .up a {
+        position: relative;
+        left: 590px;
+        top: -10px;
+    }
+    .footer-section .footer-top {
+        margin-bottom: -274px;
+    }
+    .footer-section .footer-bottom {
+        border-top: none;
+    }
+}
+
+
+@media(max-width:700px){
+    .about-section .about {
+        position: absolute;
+        left: 168px;
+    }
+    .about-section .notice {
+        position: absolute;
+        right: 183px;
+        top: 1123px;
+    }
+    .subject-section {
+        padding-top: 380px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        position: absolute;
+        top: 22px;
+    }
+    .test-section .button span {
+        position: relative;
+        left: -61px;
+    }
+    .course-section .course-bottom .course-bottom-item {
+        width: 100%;
+    }
+    .course-section .course-bottom .course-bottom-item .image img {
+        width: 100%;
+    }
+    .play-animation-btn {
+        position: absolute;
+        right: 265px;
+        bottom: 120px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        position: absolute;
+        top: 3px;
+        left: 110px;
+    }
+    .test-section .button {
+        position: absolute;
+        left: 377px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .image {
+        width: 100%;
+
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content {
+        margin-right: 191px;
+    }
+    .news-bottom .news-bottom-right {
+        left: 0px;
+        width: 100%;
+    }
+    .footer-section .footer-top .shakil {
+        width: 100%;
+        position: relative;
+        left: 200px;
+    }
+    .footer-section .footer-top .shakil {
+        position: relative;
+        left: 0;
+        text-align: center;
+    }
+}
+
+/* 690 */
+@media(max-width:630px){
+    .news-bottom .news-bottom-left .news-bottom-left-content .content {
+        margin-right: 137px;
+    }
+}
+
+@media(max-width:690px){
+    .footer-section .bg .up a {
+        position: relative;
+        left: 575px;
+    }
+}
+
+
+/* 650 */
+@media(max-width:645px){
+    .footer-section .bg .up a {
+        position: relative;
+        left: 532px;
+    }
+}
+
+@media(max-width:590px){
+    .primary-menu input {
+        position: absolute;
+        right: -71px;
+    }
+    .primary-menu span {
+        position: absolute;
+        right: -74px;
+    }
+    .nav .button {
+        position: absolute;
+        right: -74px;
+        /* top: 12px; */
+    }
+    .topbar-left .ml::before {
+        background: transparent;
+    }.topbar {
+        height: 100px;
+    }
+}
+/* 576 */
+
+@media(max-width:576px){
+    .about-section .about {
+        position: absolute;
+        left: 147px;
+    }
+    .about-section .notice {
+        position: absolute;
+        right: 168px;
+        top: 1123px;
+    }
+    .subject-section {
+        padding-top: 360px;
+    }
+    .course-section .course-bottom .course-bottom-item {
+        width: 100%;
+        margin-right: 0;
+    }
+    .course-section .course-bottom .course-bottom-item .image img {
+        width: 100%;
+    }
+    .admission-section .admition-right {
+        margin-left: 34px;
+    }
+    .play-animation-btn {
+        position: absolute;
+        right: 198px;
+        bottom: 88px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        position: absolute;
+        left: 66px;
+    }
+    .test-section .button span {
+        position: relative;
+        left: -210px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content {
+        margin-right: 86px;
+    }
+    .newsletter-section .newsletter-left {
+        width: 100%;
+        text-align: center;
+    }
+    .newsletter-section .newsletter-right {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-section .footer-top .footer-widjet {
+        width: 100%;
+        position: relative;
+        left: 174px;
+    }
+    .footer-section .footer-top .shakil {
+        width: 100%;
+        position: relative;
+        left: -10px;
+        text-align: center;
+    }
+    .footer-section .footer-bottom .footer-bottom-menu {
+        position: absolute;
+        left: 222px;
+    }
+    .footer-section .bg .up a {
+        position: relative;
+        left: 450px;
+    }
+}
+@media(max-width:500px){
+    .nav .button {
+        position: absolute;
+        right: -66px;
+    }
+    .about-section .about {
+        position: absolute;
+        left: 100px;
+    }
+    .test-section .button span {
+        position: relative;
+        left: -143px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content {
+        margin-right: 2px;
+    }
+    .about-section .notice {
+        right: 137px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        position: absolute;
+        left: 31px;
+    }
+    .test-section .test-bottom .item p {
+        width: 350px;
+        font-size: 16px;
+    }
+    .footer-section .footer-top .footer-widjet {
+        position: relative;
+        left: 130px;
+    }
+    .footer-section .bg .up a {
+        position: relative;
+        left: 380px;
+    }
+}
+
+@media(max-width:450px){
+    .topbar {
+        height: 120px;
+    }
+    .nav .button {
+        position: absolute;
+        right:3px;
+    }
+    .primary-menu span {
+        position: absolute;
+        right: 0px;
+    }
+    .primary-menu input {
+        position: absolute;
+        right: 4px;
+    }
+    .primary-menu .mobile-menu-check:checked ~ ul {
+        margin-left: 68px;
+    }
+    .slider-content h1 {
+        font-size: 25px;
+    }
+    .slider-content p {
+        font-size: 13px;
+        width: 300px;
+    }
+    .about-section .about {
+        position: absolute;
+        left: 84px;
+    }
+    .about-section .notice {
+        right: 97px;
+    }
+    .about-section .about {
+        position: absolute;
+        left: 28px;
+    }
+    .about-section .notice {
+        right: 68px;
+    }
+    .subject-section .subject-bottom .subject-bottom-items .item .content {
+        width: 100%;
+        position: relative;
+        top: 10px;
+    }
+    .course-section .course-bottom .course-bottom-item .content .content01 .paragraph-right span {
+        left: 0px;
+        top: 5px;
+        font-size: 10px;
+    }
+   .course-section .course-bottom .course-bottom-item .content .content02 p {
+        font-size: 12px;
+    }
+    .answer-section .answer-left .content p {
+        width: 300px;
+    }
+    .admission-section .admition-right .content h2 {
+        font-size: 20px;
+    }
+    .answer-section .answer-left .content h2 {
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .answer-section .answer-left .content p {
+        width: 200px;
+    }
+    .play-animation-btn {
+        position: absolute;
+        right: 91px;
+        bottom: 24px;
+    }
+   
+
+    .play-animation-btn {
+        position: absolute;
+        right: 135px;
+        bottom: 46px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        width: 253px;
+        height: 261px;
+    }
+    .test-section .test-bottom .item p {
+        width: 280px;
+        font-size: 15px;
+    }
+    .test-section .test-top h6 {
+        font-size: 10px;
+    }
+    .test-section .test-top h1 {
+        font-size: 25px;
+    }
+    .test-section .button span {
+        position: relative;
+        left: -178px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .image {
+        margin-left: -38px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content {
+        margin-right: -18px;
+    }
+    .news-bottom .news-bottom-right .content-left .content01 {
+        font-size: 30px;
+        width: 100%;
+        margin-bottom: 26px;
+    }
+    .news-bottom .news-bottom-right .content-left .content01 span {
+        font-size: 8px;
+    }
+    .news-bottom .news-bottom-right .content-left .content02 h6 {
+        font-size: 10px;
+    }
+    .news-bottom .news-bottom-right .content-left .content02 h2 {
+        font-size: 15px;
+    }
+    .newsletter-section .newsletter-right input {
+        margin-bottom: 30px;
+    }
+    .footer-section .footer-top .footer-widjet {
+        position: relative;
+        left: 100px;
+    }
+    .footer-section .footer-bottom .footer-bottom-image {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-section .footer-bottom .footer-bottom-menu {
+        position: absolute;
+        left: 80px;
+    }
+    .footer-section .footer-bottom .footer-bottom-menu ul {
+        margin-left: -143px;
+    }
+    .footer-section .footer-bottom .footer-bottom-content {
+        margin-bottom: 20px;
+    }
+    .footer-section .footer-bottom .footer-bottom-content p {
+        font-size: 10px;
+        position: relative;
+        top: 60px;
+    }
+    .footer-section .bg .up a {
+        position: relative;
+        left: 308px;
+    }
+}
+@media(max-width:360px){
+   
+   
+
+}
+@media(max-width:360px){
+    .topbar {
+        height: 100px;
+    }
+    .topbar-left span {
+        font-size: 8px;
+    }
+    .topbar-right span {
+        font-size: 9px;
+    }
+    .topbar-right a {
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+    .nav .logo a {
+        margin-top: 26px;
+    }
+    .primary-menu ul li a {
+        padding: 0px 10px;
+        font-size: 8px;
+        line-height: 33px;
+    }
+    .primary-menu ul li a i {
+        display: none;
+    }
+    .nav .menu .national ul li ul {
+        position: absolute;
+        left: 50px;
+    }
+    .shop {
+        padding: 20px;
+        position: absolute;
+        top: 35px;
+        left: -164px;
+    }
+    .slider-content h1 {
+        font-size: 20px;
+    }
+    .slider-content p {
+        font-size: 10px;
+        width: 200px;
+        line-height: 20px;
+    }
+    .about-section .about {
+        position: absolute;
+        left: 0px;
+    }
+    .about-section .notice {
+        right: 40px;
+    }
+    .subject-section .subject-top .subject-top-left h6 {
+        font-weight: 700;
+    }
+    .subject-section .subject-top .subject-top-left h2 {
+        font-size: 20px;
+    }
+    .subject-section .subject-top .subject-top-right a {
+        font-size: 8px;
+        padding: 10px 20px;
+        font-weight: 600;
+        margin-top: 4px;
+    }
+    .subject-section .subject-bottom .subject-bottom-items .item .content h5 {
+        font-size: 12px;
+    }
+    .course-section .course-top .course-top-left h6 {
+        font-weight: 700;
+    }
+    .course-section .course-top .course-top-left h2 {
+        font-size: 20px;
+    }
+    .course-section .course-top .course-top-right a {
+        font-size: 8px;
+        padding: 10px 20px;
+        font-weight: 600;
+        margin-top: 4px;
+    }
+    .play-animation-btn {
+        position: absolute;
+        right: 99px;
+        bottom: 26px;
+    }
+    .teacher-section .teacher-top .teacher-top-left h6 {
+        font-weight: 700;
+    }
+    .teacher-section .teacher-top .teacher-top-left h2 {
+        font-size: 20px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        width: 70%;
+        height: 0px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up h3 {
+        margin-top: -84px;
+        font-size: 13px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up span {
+        font-size: 10px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up ul li {
+        padding: 0 8px;
+        font-size: 10px;
+    }
+    .test-section .button span {
+        position: relative;
+        left: -239px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        position: absolute;
+        top: 33px;
+        padding-bottom: 28px;
+    }
+
+    .test-section .test-top h1 {
+        font-size: 20px;
+    }
+    .test-section .test-bottom .item p {
+        width: 200px;
+        font-size: 15px;
+    }
+    .course-section .course-bottom .course-bottom-item .content .content02 p {
+        font-size: 10px;
+    }
+    .course-section .course-bottom .course-bottom-item .content .content03 .content03-right span {
+        padding: 2px 7px;
+        font-size: 8px;
+    }
+    .news-section .test-top h6 {
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+    .news-section .test-top h1{
+        font-size: 20px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .image {
+        margin-left: -69px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content {
+        margin-right: -34px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content span {
+        font-size: 10px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content h4 {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content a {
+        font-size: 10px;
+    }
+    .news-bottom .news-bottom-right .content-left .content02 {
+        text-align: center;
+    }
+    .news-bottom .news-bottom-right .content-left .content02 h6 {
+        font-size: 8px;
+    }
+    .news-bottom .news-bottom-right .content-left .content02 h2 {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .newsletter-section .newsletter-left h1 {
+        font-size: 10px;
+        line-height: 1rem;
+    }
+    .newsletter-section .newsletter-left h6 {
+        font-weight: 500;
+        font-size: 8px;
+    }
+    .newsletter-section .newsletter-right input {
+        padding: 8px;
+        width: 113px;
+        font-size: 8px;
+        margin-left: -20px;
+        margin-bottom: 10px;
+    }
+    .newsletter-section .newsletter-right a {
+        padding: 5px 10px;
+        margin-left: -4px;
+        font-size: 10px;
+    }
+    .footer-section .footer-top .footer-widjet {
+        position: relative;
+        left: 40px;
+    }
+    .footer-section .footer-bottom .footer-bottom-content p {
+        font-size: 9px;
+        position: relative;
+        top: 71px;
+    }
+    .footer-section .footer-bottom .footer-bottom-content p span {
+        font-weight: 500;
+        font-size: 12px;
+    }
+}
+@media(max-width:320px){
+    .play-animation-btn {
+        position: absolute;
+        right: 68px;
+        bottom: 11px;
+    }
+    .test-section .test-bottom .item p {
+        width: 130px;
+        font-size: 14px;
+    }
+    .test-section .button span {
+        position: relative;
+        left: -239px;
+    }
+    .teacher-section .teacher-bottom .item .pop-up {
+        position: absolute;
+        top: -3px;
+        padding-bottom: 28px;
+    }
+    .news-bottom .news-bottom-left .news-bottom-left-content .content {
+        margin-right: -65px;
+    }
+    .about-section .about {
+        position: absolute;
+        left: 10px;
+    }
+}
